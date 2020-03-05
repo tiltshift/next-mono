@@ -9,13 +9,16 @@ const Index = ({ users }) => (
 );
 
 Index.getInitialProps = async ctx => {
-  const response = await fetch("http://localhost:3000/api/graphql", {
-    method: "POST",
-    headers: {
-      "Content-type": "application/json"
-    },
-    body: JSON.stringify({ query: "{ users { name } }" })
-  });
+  const response = await fetch(
+    "https://next-mono.tiltshift.now.sh/api/graphql",
+    {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify({ query: "{ users { name } }" })
+    }
+  );
 
   const {
     data: { users }
