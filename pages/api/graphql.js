@@ -24,5 +24,6 @@ export const config = {
     bodyParser: false
   }
 };
+console.log("SERVER STARTED");
 
 export default apolloServer.createHandler({ path: "/api/graphql" });
