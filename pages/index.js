@@ -9,7 +9,7 @@ const Index = ({ users }) => (
 );
 
 Index.getInitialProps = async () => {
-  const response = await fetch("http://localhost:3000/api/graphql", {
+  const response = await fetch(`${window.origin}/api/graphql`, {
     method: "POST",
     headers: {
       "Content-type": "application/json"
