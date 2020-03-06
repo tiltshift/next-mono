@@ -8,9 +8,8 @@ const Index = ({ stars }) => (
   </div>
 );
 
-const fetchUsers = () => {
+const fetchUsers = async () => {
   try {
-    
     const response = await fetch("https://next-mono.now.sh/api/graphql", {
       method: "POST",
       headers: {
@@ -26,9 +25,8 @@ const fetchUsers = () => {
   } catch (error) {
     console.error("error", error);
   }
-}
+};
 Index.getInitialProps = async () => {
-  
   const res = await fetch("https://api.github.com/repos/zeit/next.js");
   const json = await res.json();
   return { stars: json.stargazers_count };
