@@ -1,3 +1,3 @@
-const withTM = require("next-transpile-modules")(["@calm/server"]);
+const withTM = require("next-transpile-modules")(["@next-mono/server"]);
 
 module.exports = withTM();
