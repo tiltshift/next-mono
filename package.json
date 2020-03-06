@@ -1,9 +1,6 @@
 {
   "name": "next-mono",
   "private": true,
-  "dependencies": {
-    "next": "latest"
-  },
   "workspaces": [
     "*"
   ],
