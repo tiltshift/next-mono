@@ -1,18 +1,12 @@
 {
   "name": "next-mono",
-  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "*"
+  ],
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "apollo-server-micro": "2.6.7",
-    "graphql": "14.4.2",
-    "isomorphic-unfetch": "3.0.0",
-    "next": "latest",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "license": "ISC"
+    "dev": "cd web && next",
+    "build": "cd web && yarn build",
+    "start": "cd web && next start"
+  }
 }
