@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@nextmono/server": "*",
+    "@nextmono/components": "*",
     "babel-plugin-module-resolver": "^4.0.0",
     "isomorphic-unfetch": "3.0.0",
     "react": "^16.8.6",

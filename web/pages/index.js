@@ -1,14 +1,13 @@
 import fetch from "isomorphic-unfetch";
+import { BobSaget } from "@nextmono/components";
 
 const Index = ({ users }) => (
   <div>
-    TURN DOWN FOR WHAT
-    {users.map((user, i) => (
-      <div key={i}>{user.name}</div>
-    ))}
+    TURN DOWN FOR WHAT: <BobSaget />
   </div>
 );
 
+/*
 Index.getInitialProps = async () => {
   try {
     const response = await fetch("http://localhost:3000/api/graphql", {
@@ -28,5 +27,6 @@ Index.getInitialProps = async () => {
   }
   return { users: [] };
 };
+*/
 
 export default Index;
