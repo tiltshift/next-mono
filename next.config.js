@@ -1,4 +1,4 @@
-const withTM = require("next-transpile-modules")(["@nextMono/server"]);
+const withTM = require("next-transpile-modules")(["@nextmono/server"]);
 
 module.exports = withTM({
   distDir: "../.next"

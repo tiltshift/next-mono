@@ -1,4 +1,4 @@
-import apolloServer from "@nextMono/server";
+import apolloServer from "@nextmono/server";
 
 export const config = {
   api: {

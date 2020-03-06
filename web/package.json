@@ -1,8 +1,8 @@
 {
-  "name": "@nextMono/web",
+  "name": "@nextmono/web",
   "version": "1.0.0",
   "dependencies": {
-    "@nextMono/server": "*",
+    "@nextmono/server": "*",
     "babel-plugin-module-resolver": "^4.0.0",
     "isomorphic-unfetch": "3.0.0",
     "react": "^16.8.6",
