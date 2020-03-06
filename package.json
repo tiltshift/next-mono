@@ -5,8 +5,8 @@
     "*"
   ],
   "scripts": {
-    "dev": "cd web && next",
-    "build": "cd web && yarn build",
-    "start": "cd web && next start"
+    "dev": "yarn --cwd web dev",
+    "build": "yarn --cwd web build",
+    "start": "yarn --cwd web start"
   }
 }
