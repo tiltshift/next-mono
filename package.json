@@ -1,12 +1,16 @@
 {
   "name": "next-mono",
   "private": true,
+  "dependencies": {
+    "next": "latest",
+    "next-transpile-modules": "^3.0.2"
+  },
   "workspaces": [
     "*"
   ],
   "scripts": {
-    "dev": "yarn --cwd web dev",
-    "build": "yarn --cwd web build",
-    "start": "yarn --cwd web start"
+    "dev": "next dev web",
+    "build": "next build web",
+    "start": "next start web"
   }
 }

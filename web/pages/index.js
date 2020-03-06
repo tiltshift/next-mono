@@ -2,7 +2,7 @@ import fetch from "isomorphic-unfetch";
 
 const Index = ({ users }) => (
   <div>
-    DO WHAT?
+    TURN DOWN FOR WHAT
     {users.map((user, i) => (
       <div key={i}>{user.name}</div>
     ))}
