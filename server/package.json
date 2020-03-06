@@ -1,5 +1,5 @@
 {
-  "name": "@next-mono/server",
+  "name": "next-mono-server",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
