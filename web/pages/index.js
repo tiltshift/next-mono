@@ -9,10 +9,8 @@ const Index = ({ stars }) => (
 );
 
 Index.getInitialProps = async () => {
-  /*
   try {
-    
-    const response = await fetch("http://localhost:3000/api/graphql", {
+    const response = await fetch("https://next-mono.now.sh/api/graphql", {
       method: "POST",
       headers: {
         "Content-type": "application/json"
@@ -27,7 +25,6 @@ Index.getInitialProps = async () => {
   } catch (error) {
     console.error("error", error);
   }
-  */
 
   const res = await fetch("https://api.github.com/repos/zeit/next.js");
   const json = await res.json();
