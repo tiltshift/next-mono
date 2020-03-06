@@ -7,7 +7,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@next-mono/server": "*",
     "babel-plugin-module-resolver": "^4.0.0",
     "isomorphic-unfetch": "3.0.0",
     "next": "latest",
