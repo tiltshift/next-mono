@@ -1,5 +1,5 @@
 {
-  "name": "next-mono",
+  "name": "nextMono",
   "private": true,
   "dependencies": {
     "next": "latest",
